@@ -20,7 +20,9 @@ const UsuariosSchema = mongoose.Schema({
     registro: {
         type: Date,
         default: Date.now()
+    }}, {
+        timestamps: true
     }
-});
+);
 
 module.exports = mongoose.model('Usuario', UsuariosSchema);

@@ -7,28 +7,19 @@
     "start": "node .",
     "dev": "nodemon ."
   },
-  "author": "Laura Sanchez Lopez",
+  "author": "Laura Sanchez",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.0"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-validator": "^6.6.1",
-    "mongoose": "^5.10.11",
-    "save": "^2.4.0",
+    "express-validator": "^6.2.0",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
     "nodemon": "^2.0.2"
-  },
-  "prettier": {
-    "semi": true,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "trailingComma": "all",
-    "bracketSpacing": false,
-    "proseWrap": "always"
   }
 }
